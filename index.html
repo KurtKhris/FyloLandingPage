@@ -23,10 +23,11 @@
         <div class="hero">
             <div class="col1">
                 <h2>All your files in one secure location, accessible anywhere.</h2>
-                <p>Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family and co-workers.</p>
+                <p class="files">Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family and co-workers.</p>
                 <form >
-                    <input class="input-field" type="email" placeholder="Enter your email...">
+                    <input class="input-field" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Enter your email...">
                     <button>Get Started</button>
+                    <p class="error">Please check your email</p>
                 </form>
             </div>
             <div class="col2">
@@ -68,7 +69,8 @@
                 </div>
                 <div class="getStarted">
                     <form>
-                        <input class="input-field" type="email" placeholder="email@example.com">
+                        <input class="input-field" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="email@example.com">
+                        <p class="error">Please check your email</p>
                         <button>Get Started For Free</button>
                     </form>
                 </div>
