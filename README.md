@@ -4,7 +4,8 @@
 * Html
 * CSS
 
-## Access
+## Demo
+- https://curious-alpaca-5c2cbe.netlify.app/
 To view this webpage, you will need to follow:
 
   - a Laptop / Mobile device
@@ -23,9 +24,6 @@ cd FyloLandingPage
 
 ## Status
 Project is: _completed_
-
-## Demo
-https://github.com/KurtKhris/FyloLandingPage
 
 ## Contact
 Created by [Kpegah Edem Christian](https://www.linkedin.com/in/christian-edem-kpegah-491461165/) - feel free to contact me!
