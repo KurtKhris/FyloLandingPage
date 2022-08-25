@@ -75,7 +75,7 @@ nav ul li {
     margin-bottom: 0px;
 }
 
-.hero .col1 p{
+.hero .col1 .files{
     width: 521px;
     font-family: "Open Sans";
     font-size: 17px;
@@ -94,6 +94,24 @@ nav ul li {
     padding-left: 20px;
     color: #C2C2C2;
     border-radius: 5px;
+}
+
+.col1 form .input-field:invalid{
+    border: none;
+    outline: 1px solid #EF4877;
+}
+
+.col1 form .input-field:invalid ~ .error{
+    display: block;
+}
+
+.error{
+    color: #EF4877;
+    font-size: 12px;
+    font-family: "Open Sans";
+    line-height: auto;
+    letter-spacing: 0.4px;
+    display: none;
 }
 
 .col1 form button{
@@ -296,7 +314,22 @@ nav ul li {
     padding-left: 19px;
     border: none;
     border-radius: 5px;
+    outline: none;
 }
+
+.getStarted .input-field:valid{
+    border: 1px solid #ffffff;
+}
+
+.getStarted .input-field:invalid{
+    border: none;
+    outline: 1px solid #EF4877;
+}
+
+.getStarted .input-field:invalid ~ .error{
+    display: block;
+}
+
 
 .getStarted form button{
     width: 200px;
@@ -489,7 +522,7 @@ nav ul li {
     margin-bottom: 0px;
     }
 
-.hero .col1 p{
+.hero .col1 .files{
     width: 296px;
     font-family: "Open Sans";
     font-size: 14px;
