@@ -5,8 +5,8 @@
 * CSS
 
 ## Demo
-- https://curious-alpaca-5c2cbe.netlify.app/
-To view this webpage, you will need to follow:
+https://curious-alpaca-5c2cbe.netlify.app/
+To view this webpage, you will need the following:
 
   - a Laptop / Mobile device
 
